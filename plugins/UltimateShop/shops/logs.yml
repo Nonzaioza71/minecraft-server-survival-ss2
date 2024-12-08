@@ -1,0 +1,215 @@
+settings:
+  menu: 'example-shop-menu'
+  buy-more: true
+  shop-name: 'Logs Shop'
+  hide-message: false
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CHERRY_LOG
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.35'
+        placeholder: '{amount}$'
+        start-apply: 0
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: OAK_LOG
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.02'
+        placeholder: '{amount}$'
+        start-apply: 0
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SPRUCE_LOG
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.02'
+        placeholder: '{amount}$'
+        start-apply: 0
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BIRCH_LOG
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.02'
+        placeholder: '{amount}$'
+        start-apply: 0
+  E:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MANGROVE_LOG
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.02'
+        placeholder: '{amount}$'
+        start-apply: 0
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: JUNGLE_LOG
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.02'
+        placeholder: '{amount}$'
+        start-apply: 0
+  G:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ACACIA_LOG
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.02'
+        placeholder: '{amount}$'
+        start-apply: 0
+  H:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DARK_OAK_LOG
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.32'
+        placeholder: '{amount}$'
+        start-apply: 0
+  I:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CHERRY_SAPLING
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.5'
+        placeholder: '{amount}$'
+        start-apply: 0
+  J:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: OAK_SAPLING
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.6'
+        placeholder: '{amount}$'
+        start-apply: 0
+  K:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SPRUCE_SAPLING
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.5'
+        placeholder: '{amount}$'
+        start-apply: 0
+  L:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BIRCH_SAPLING
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.6'
+        placeholder: '{amount}$'
+        start-apply: 0
+  M:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MANGROVE_PROPAGULE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.6'
+        placeholder: '{amount}$'
+        start-apply: 0
+  N:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: JUNGLE_SAPLING
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.6'
+        placeholder: '{amount}$'
+        start-apply: 0
+  O:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ACACIA_SAPLING
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.6'
+        placeholder: '{amount}$'
+        start-apply: 0
+  O:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DARK_OAK_SAPLING
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.6'
+        placeholder: '{amount}$'
+        start-apply: 0

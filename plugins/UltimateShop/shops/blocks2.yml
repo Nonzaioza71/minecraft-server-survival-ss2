@@ -1,0 +1,313 @@
+settings:
+  menu: 'example-shop-menu'
+  buy-more: true
+  shop-name: 'Blocks Shop'
+  hide-message: false
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MUD
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.9'
+        placeholder: '{amount}$'
+        start-apply: 0
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BRICKS
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.82'
+        placeholder: '{amount}$'
+        start-apply: 0
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SPONGE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '10.60'
+        placeholder: '{amount}$'
+        start-apply: 0
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MOSS_BLOCK
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.10'
+        placeholder: '{amount}$'
+        start-apply: 0
+  E:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CALCITE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.8'
+        placeholder: '{amount}$'
+        start-apply: 0
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BLACKSTONE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '5.48'
+        placeholder: '{amount}$'
+        start-apply: 0
+  G:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PURPUR_BLOCK
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.57'
+        placeholder: '{amount}$'
+        start-apply: 0
+  H:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SHROOMLIGHT
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '9.68'
+        placeholder: '{amount}$'
+        start-apply: 0
+    buy-limits:
+      global: '{sell-times-server}'
+    buy-limits-reset-mode: 'NEVER'
+    buy-limits-reset-time: '00:00:00' 
+  I:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: AMETHYST_BLOCK
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '6.75'
+        placeholder: '{amount}$'
+        start-apply: 0
+    buy-limits:
+      global: '{sell-times-server}'
+    buy-limits-reset-mode: 'NEVER'
+    buy-limits-reset-time: '00:00:00' 
+  J:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: TUBE_CORAL_BLOCK
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.35'
+        placeholder: '{amount}$'
+        start-apply: 0
+  K:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BRAIN_CORAL_BLOCK
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.35'
+        placeholder: '{amount}$'
+        start-apply: 0
+  L:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BUBBLE_CORAL_BLOCK
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.35'
+        placeholder: '{amount}$'
+        start-apply: 0
+  M:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: FIRE_CORAL_BLOCK
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.35'
+        placeholder: '{amount}$'
+        start-apply: 0
+  N:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: HORN_CORAL_BLOCK
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.35'
+        placeholder: '{amount}$'
+        start-apply: 0
+  O:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SEA_LANTERN
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '12.18'
+        placeholder: '{amount}$'
+        start-apply: 0
+    buy-limits:
+      global: '{sell-times-server}'
+    buy-limits-reset-mode: 'NEVER'
+    buy-limits-reset-time: '00:00:00' 
+  P:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MAGMA_BLOCK
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.75'
+        placeholder: '{amount}$'
+        start-apply: 0
+    buy-limits:
+      global: '{sell-times-server}'
+    buy-limits-reset-mode: 'NEVER'
+    buy-limits-reset-time: '00:00:00' 
+  Q:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: TUFF
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.24'
+        placeholder: '{amount}$'
+        start-apply: 0
+  R:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SAND
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.50'
+        placeholder: '{amount}$'
+        start-apply: 0
+  S:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: RED_SAND
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.59'
+        placeholder: '{amount}$'
+        start-apply: 0
+  T:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PRISMARINE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.98'
+        placeholder: '{amount}$'
+        start-apply: 0
+    buy-limits:
+      global: '{sell-times-server}'
+    buy-limits-reset-mode: 'NEVER'
+    buy-limits-reset-time: '00:00:00' 
+  U:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: chiseled_stone_bricks
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.98'
+        placeholder: '{amount}$'
+        start-apply: 0
+    buy-limits:
+      global: '{sell-times-server}'
+    buy-limits-reset-mode: 'NEVER'
+    buy-limits-reset-time: '00:00:00' 
+    
+buttons:
+  a:
+    display-item:
+      material: player_head
+      skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ'
+      name: '&c« Previous page'
+    actions:
+      - 'shop_menu: blocks'

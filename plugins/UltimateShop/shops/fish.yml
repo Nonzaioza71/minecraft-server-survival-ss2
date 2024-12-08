@@ -1,0 +1,85 @@
+settings:
+  menu: 'example-shop-menu'
+  buy-more: true
+  shop-name: 'Fish Shop'
+  hide-message: false
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COD
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.15'
+        placeholder: '{amount}$'
+        start-apply: 0
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COOKED_COD
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.48'
+        placeholder: '{amount}$'
+        start-apply: 0
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SALMON
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.58'
+        placeholder: '{amount}$'
+        start-apply: 0
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COOKED_SALMON
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.98'
+        placeholder: '{amount}$'
+        start-apply: 0
+  E:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: TROPICAL_FISH
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.86'
+        placeholder: '{amount}$'
+        start-apply: 0
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PUFFERFISH
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.45'
+        placeholder: '{amount}$'
+        start-apply: 0

@@ -1,0 +1,127 @@
+settings:
+  menu: 'example-shop-menu'
+  buy-more: true
+  shop-name: 'Redstone Shop'
+  hide-message: false
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DISPENSER
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.34'
+        placeholder: '{amount}$'
+        start-apply: 0
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: NOTE_BLOCK
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '6.62'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: STICKY_PISTON
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '5.86'
+        placeholder: '{amount}$'
+        start-apply: 0
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PISTON
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.27'
+        placeholder: '{amount}$'
+        start-apply: 0
+  E:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: TNT
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4'
+        min-amount: 3.9
+        placeholder: '{amount}$'
+        start-apply: 0
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: DROPPER
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.19'
+        placeholder: '{amount}$'
+        start-apply: 0
+  G:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: OBSERVER
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.79'
+        placeholder: '{amount}$'
+        start-apply: 0
+  H:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: REPEATER
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.32'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  I:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COMPARATOR
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.12'
+        max-amount: 34.2
+        min-amount: 14
+        placeholder: '{amount}$'
+        start-apply: 0

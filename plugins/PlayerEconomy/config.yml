@@ -1,0 +1,204 @@
+# PlayerEconomy by Olzie-12
+# https://www.spigotmc.org/resources/110532
+# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playereconomy
+# Also if you find any bugs be happy to report them I will fix them :)
+# Made with love
+
+# If you wish to remove a list completely from the configuration, don't remove it otherwise the configuration updater
+# will add it back to the config, and you'll be back to square one. To solve this, make sure you set the list to []
+# For example:
+# list: []
+
+# DO NOT TOUCH THIS!
+config-version: 3
+
+settings:
+  # What language do you want the plugin to read? The list langs are in the lang/ folder.
+  lang: en_US
+  # Should the plugin try and attempt to detect what language the player is using on their client?
+  # If it could not find one, it'll use the default language.
+  attempt-detect-lang: true
+  # Very useful to tell if there are any memory leaks or if the author needs
+  # information.
+  # Current debug levels are:
+  # - NONE = No debug
+  # - MINOR = Debug for info on what the plugin is doing
+  # - MAJOR - High level of debug info (which is normally used by developers)
+  debug: NONE
+  # Notifies you if there is an update (Only people with pe.admin.update can see this when they join)
+  notify-update: true
+  # Should the plugin automatically download the latest version from spigot if your plugin version is out of date?
+  # Please note, this will only work if the above option is enabled
+  download-update: true
+  # Plugin metrics, this is very useful for the author to
+  # see information about the server. Please keep it enabled,
+  # it makes me more encouraged to make plugins like this.
+  # YOU WILL NEED TO RESTART THE SERVER!
+  metrics: true
+  # These are the commands for the plugin.
+  commands:
+    # The root command for the plugin. (Admin commands)
+    playereconomy:
+      main-command: "eco"
+      # Extra aliases for the main command.
+      command-aliases:
+        - "playereconomy"
+        - "pe"
+        - "peconomy"
+      give-command-syntax: "%prefix% &b/%label% %args-0% <player> <amount>"
+      reset-command-syntax: "%prefix% &b/%label% %args-0% <player>"
+      set-command-syntax: "%prefix% &b/%label% %args-0% <player> <amount>"
+      take-command-syntax: "%prefix% &b/%label% %args-0% <player> <amount>"
+      dbexec-command-syntax: "%prefix% &b/%label% %args-0% <query>"
+      allow-decimals: true
+
+    # Check your balance.
+    balance:
+      # Should the command be enabled?
+      enabled: true
+      main-command: "balance"
+      # Extra aliases for the main command.
+      command-aliases:
+        - "bal"
+        - "money"
+    # View balancetop
+    balancetop:
+      # Should the command be enabled?
+      enabled: true
+      main-command: "balancetop"
+      # Extra aliases for the main command.
+      command-aliases:
+        - "baltop"
+    # Send money to players
+    pay:
+      # Should the command be enabled?
+      enabled: true
+      main-command: "pay"
+      command-syntax: "%prefix% &b/%label% <player> <amount>"
+      pay-own: false
+      min-amount: 1
+      allow-decimals: true
+    # Withdraw your money into a physical item.
+    withdraw:
+      # Should the command be enabled?
+      enabled: true
+      main-command: "withdraw"
+      command-syntax: "%prefix% &b/%label% <amount>"
+      allow-decimals: true
+
+  # Choose what locale the formatters should use, make sure to use language codes. https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html
+  format-locale: "en"
+
+  # How should the plugin format numbers?
+  # Should the plugin use the short number format? (1.2k instead of 1,200)
+  number-format-short: false
+  # If the above option is true, how should the format look like?
+  number-format-short-suffix: ["", "K", "M", "B", "T", "Q", "s", "S"]
+  # You can see the java documentation on how to use the decimal format here:
+  # https://docs.oracle.com/javase/8/docs/api/java/text/DecimalFormat.html
+  number-format: "#,###.##" # Formatting full number
+  number-format-decimal: "#,##0.00" # Formatting decimal number
+
+  database:
+    # When the plugin starts up, should it automatically convert the opposite database connected?
+    # Make sure to disable this once done!
+    convert: false
+    # This checks if the database connection is valid. If it's not, it will find a new connection.
+    # If the plugin is crashing your server with the stacktrace containing "com.mysql.cj.jdbc.ConnectionImpl.isValid". Then please disable this.
+    # When this is disabled, it will instead check if the connection is closed. If it is, it will find a new connection.
+    # SQLite users should not have to worry about this.
+    use-is-valid: true
+
+    sqlite:
+      backups:
+        # Should backups be enabled? I highly recommenced you keep this enabled.
+        enabled: true
+        # What are the maximum amount of backups allowed in the backup folder until the first one is deleted? Set this to -1 to keep unlimited backups
+        maximum: 10
+
+    mysql:
+      # Should SQL be enabled?
+      enabled: true
+      # Should the connection to the database be closed periodically?
+      # If you're having issues with "No operations allowed after connection closed.". Make sure this is disabled and add autoReconnect=true in your arguments below.
+      close: false
+      # Please enter the server name that will be used for syncing data between servers.
+      server-name: ""
+
+      # If MySQL is enabled PlayerEconomy needs to be connected to the SQL database, please enter your details.
+      # I am not responsible for any leakage of these details. (If an admin accesses it etc...)
+
+      # What is the hostname?
+      hostname: "103.230.121.110"
+      # What is the port? Most database ports are 3306.
+      port: 3306
+      # What is your database name?
+      database: "empdev-mcsv-survival"
+      # What is your database username?
+      username: "empdev"
+      # What is your database password?
+      password: "empdevQwerty1@#$%"
+      # Add extra arguments to your MySQL connect URL.
+      arguments: "?characterEncoding=utf8&useSSL=true"
+
+    # How often should the balance refresh in every server? If the time is low the more lag the plugin could produce. This is in seconds.
+    refresh-time: 60
+
+  balance:
+    # What is the default balance a player has?
+    default-balance: 500
+    # What is the minimum amount a player balance can have?
+    min-balance: 0
+
+  balancetop:
+    # How often should the balancetop update? The quicker it is the quicker it could cause lag. This is in seconds.
+    update-interval: 15
+    # How many players should appear in one page?
+    page-length: 10
+
+  banknote:
+    # Should players be able to withdraw money into banknotes?
+    enabled: true
+    # What is the maximum amount a player can withdraw? Set to -1 to ignore.
+    max-amount: -1
+    # What is the minimum amount a player can withdraw?
+    min-amount: 1
+    # What are the sounds?
+    sounds:
+      # Set this to none to disable
+      sound-withdraw: ENTITY_PLAYER_LEVELUP
+      volume-withdraw: 1
+      pitch-withdraw: 1
+
+      # Set this to none to disable
+      sound-redeem: ENTITY_PLAYER_LEVELUP
+      volume-redeem: 1
+      pitch-redeem: 1
+    item:
+      material: PAPER
+      name: "&aBank Note &c$%balance%"
+      lore:
+        - "&c&aClick to redeem the bank note."
+        - " "
+        - "&aWithdrawer: &c%player%"
+        - "&aAmount: &c$%balance%"
+
+  # This updates the players inventory when the player exits a menu. This is to prevent any issues with the inventory
+  # to take away any items that shouldn't be in the players inventory. This is recommended to be disabled.
+  # If you are having issues with plugins like Cosmetics, you may enable it to fix some issues. But you will not receive
+  # any support for duplicate items.
+  dangerous-ignore-update-inventory: false
+  # This is to change the priority of the chat wait action, if you have any issues with the chat wait action, you may want to change this from HIGHEST to LOWEST.
+  wait-chat-event-priority: HIGHEST
+  # If this is true and you're using paper, it will use the paper event for the chat wait action. This is recommended to be enabled.
+  # If you're having issues with the chat wait action, you may want to disable this as your main chat plugin might still be using the bukkit event.
+  use-paper-event: true
+  # If you are using a software that is not Spigot and has forge, you may want to enable this to fix some issues with the plugin like modded items missing NBT tags.
+  # If this is enabled, you need ProtocolLib installed.
+  use-modded-serialization: false
+  # When handling items, should it remove public bukkit values? If you have are issues with items losing lore etc set this to false.
+  # Some plugins may remove the item from a menu if it is false, if youre having this issue set it to true.
+  remove-item-pbv: true
+  # Should the plugin attempt to parse legacy JSON messages? Only set this to true if you're using JSON messages in the plugin.
+  # JSON messages are no longer supported, a better alternative is MiniMessage.
+  use-legacy-json-message: false

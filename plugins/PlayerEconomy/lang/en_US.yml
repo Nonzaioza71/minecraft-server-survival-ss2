@@ -1,0 +1,88 @@
+# PlayerEconomy by Olzie-12
+# https://www.spigotmc.org/resources/110532
+# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playereconomy
+# Also if you find any bugs be happy to report them I will fix them :)
+# Made with love
+
+# If you want to disable any message just set it to nothing. by doing
+# list: "" <- This will no longer send a message.
+
+
+# every singe message in the plugin is here.
+# make sure you use "" to end of every string
+# Also you can use colour codes <3
+
+# To use hex color codes you will need to do
+# "{#HEX} text"
+
+lang:
+  cancel-chat-wait: "cancel"
+  chat-wait-cancelled: "&cCancelled your request!"
+  prefix: "&b&lPE &7»" # Use %prefix% to add the prefix to any message!
+  balance: "%prefix% &aBalance: &c$%balance%"
+  other-balance: "%prefix% &c%player%'s &aBalance: &c$%balance%"
+  given-money: "%prefix% &aSuccessfully given &c$%amount% &ato &c%player%&a!"
+  given-money-player: "%prefix% &c$%amount%&a has been added to your balance."
+  reset-money: "%prefix% &aSuccessfully reset &c%player%'s&a balance to &c$%amount%&a!"
+  reset-money-player: "%prefix% &aYour balance has been reset to &c$%amount%&a!"
+  set-money: "%prefix% &aSuccessfully set &c%player%'s&a balance to &c$%amount%&a!"
+  set-money-player: "%prefix% &aYour balance has been set to &c$%amount%&a!"
+  taken-money: "%prefix% &aSuccessfully taken &c$%amount% &afrom &c%player%&a!"
+  taken-money-player: "%prefix% &c$%amount%&a has been removed from your balance."
+  paid-player: "%prefix% &aYou have successfully sent &c$%amount%&a to &c%player%&a!"
+  paid-received: "%prefix% &aYou have successfully received &c$%amount%&a from &c%player%&a!"
+  successfully-withdrawn: "%prefix% &aYou have successfully withdrawn &c$%amount%&a!"
+  redeemed-banknote: "%prefix% &aYou have successfully redeemed that banknote for &c$%amount%&a!"
+  reloaded: "%prefix% &aSuccessfully reloaded all configs!"
+  balancetop-header: "%prefix% &7&l&m-----&7&l[ &b&lBalance Top &c%page%&b/&c%pages%&b &7&l]&m-----\n&bServer: &c$%server%"
+  balancetop-entry: "%prefix% &f%position%. %player%: $%balance%"
+  dbexec-successful: "%prefix% &aSuccessfully updated &c%count%&a rows. &aPlease execute &c/%cmd% reload&a to update changes."
+
+  # the help menu for a player
+  # The variable %cmd% is any command from the config.yml :)
+  help-player:
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Economy &7&l]&m----------"
+    - "%prefix% &c/%cmd% help &7&l- &bDisplays this menu."
+    - "%prefix% &c/%cmd% give <player> <amount> &7&l- &bGive money to a player."
+    - "%prefix% &c/%cmd% reset <player> &7&l- &bReset's a players balance."
+    - "%prefix% &c/%cmd% set <player> <amount> &7&l- &bSet a players balance."
+    - "%prefix% &c/%cmd% take <player> <amount> &7&l- &bTake money from a player."
+    - "%prefix% &c/%cmd% reload &7&l- &bReloads all the config files."
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Economy &7&l]&m----------"
+
+  # the help menu for console
+  # The variable %cmd% is any command from the config.yml :)
+  help-console:
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Economy &7&l]&m----------"
+    - "%prefix% &c/%cmd% help &7&l- &bDisplays this menu."
+    - "%prefix% &c/%cmd% give <player> <amount> &7&l- &bGive money to a player."
+    - "%prefix% &c/%cmd% reset <player> &7&l- &bReset's a players balance."
+    - "%prefix% &c/%cmd% set <player> <amount> &7&l- &bSet a players balance."
+    - "%prefix% &c/%cmd% take <player> <amount> &7&l- &bTake money from a player."
+    - "%prefix% &c/%cmd% reload &7&l- &bReloads all the config files."
+    - "%prefix% &c/%cmd% dbexec <query> &7&l- &bExecute a query."
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Economy &7&l]&m----------"
+
+  errors:
+    command-syntax: "%prefix% &cIncorrect syntax, use:\n%syntax%"
+    player-only: "%prefix% &cYou must be a player!"
+    console-only: "%prefix% &cThis command can only be executed from console!"
+    no-permission: "%prefix% &cYou do not have &4%permission%&c to do this! %reason%"
+    no-player-joined: "%prefix% &cThat player does not exist!"
+    invalid-amount: "%prefix% &cThat is an invalid amount to enter!"
+    not-a-number: "%prefix% &cThat is a not a number!"
+    no-page: "%prefix% &cThat page does not exist!"
+    not-enough-money: "%prefix% &cYou do not have enough money!"
+    max-amount-withdraw: "%prefix% &cYou cannot withdraw that amount!"
+    min-amount-withdraw: "%prefix% &cYou cannot withdraw that amount!"
+    dbexec-failed: "%prefix% &cThere was an error executing this query. %error%"
+    pay-own: "%prefix% &cYou cannot pay yourself!"
+    min-amount-pay: "%prefix% &cYou cannot pay that amount!, minimum is &c$%amount%&c!"
+
+# Here you can specify different types of messages per no-permission message, using the specific permission node.
+# Or you may set it to blank to not send a message at all.
+# no-permission:
+#   pe.balance.others: "You do not have permission to view balance of others!"
+
+n/a:
+  no-user: "N/A"

@@ -1,0 +1,249 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyway, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|4082
+'18':
+  uniqueId: 3ecfb452-bf3a-438c-a7b7-78e79e0602f4
+  world: city
+  x: -1501
+  y: 37
+  z: -2870
+  yaw: 174.0175
+  type: admin
+  name: ''
+  object:
+    type: villager
+    equipment:
+      HAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: OAK_LOG
+    baby: false
+    profession: minecraft:leatherworker
+    villagerType: minecraft:plains
+    villagerLevel: 3
+  recipes: {}
+  snapshots: []
+'19':
+  uniqueId: 921e846b-556c-4046-a953-b937937bb44c
+  world: city
+  x: -1781
+  y: 55
+  z: -2533
+  yaw: 59.643925
+  type: admin
+  name: ''
+  object:
+    type: villager
+    equipment:
+      HAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: OAK_LOG
+    baby: false
+    profession: minecraft:leatherworker
+    villagerType: minecraft:plains
+    villagerLevel: 3
+  recipes: {}
+  snapshots: []
+'20':
+  uniqueId: 4373d34c-789a-4056-b6a2-530d495aa4c7
+  world: city
+  x: -929
+  y: 77
+  z: -1630
+  yaw: 15.943613
+  type: admin
+  name: ''
+  object:
+    type: pillager
+    equipment:
+      HAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: DRIED_KELP_BLOCK
+  recipes: {}
+  snapshots: []
+'21':
+  uniqueId: 2106c278-869e-4213-9b91-9c32f349dc8a
+  world: city
+  x: -2109
+  y: 46
+  z: -1660
+  yaw: 275.5785
+  type: admin
+  name: ''
+  object:
+    type: pillager
+    equipment:
+      HAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: DRIED_KELP_BLOCK
+  recipes: {}
+  snapshots: []
+'22':
+  uniqueId: 94e43df9-2d1f-4ea9-82be-a34d5fb16ad1
+  world: city
+  x: -933
+  y: 39
+  z: -2094
+  yaw: 105.121735
+  type: admin
+  name: ''
+  object:
+    type: villager
+    equipment:
+      HAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: COOKED_SALMON
+    baby: false
+    profession: minecraft:fisherman
+    villagerType: minecraft:snow
+    villagerLevel: 5
+  recipes: {}
+  snapshots: []
+'24':
+  uniqueId: 0faa5335-54ab-484e-9670-d54a3a51cbcb
+  world: city
+  x: -2345
+  y: 39
+  z: -1935
+  yaw: 95.96626
+  type: admin
+  name: ''
+  object:
+    type: villager
+    equipment:
+      HAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_healing
+    baby: false
+    profession: minecraft:butcher
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'25':
+  uniqueId: ea46bc56-bf22-4de1-9745-5e0924bae3b2
+  world: city
+  x: -2348
+  y: 39
+  z: -1935
+  yaw: 10.940542
+  type: admin
+  name: ''
+  object:
+    type: villager
+    equipment:
+      HAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_healing
+    baby: false
+    profession: minecraft:butcher
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'26':
+  uniqueId: 92b94549-5fa4-4618-b2ec-6dbbdf2e1d3b
+  world: city
+  x: -2351
+  y: 39
+  z: -1935
+  yaw: 40.269432
+  type: admin
+  name: ''
+  object:
+    type: villager
+    equipment:
+      HAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_healing
+    baby: false
+    profession: minecraft:butcher
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'27':
+  uniqueId: ac3d593e-9088-43dc-93cd-703889e01b20
+  world: city
+  x: -1403
+  y: 46
+  z: -2025
+  yaw: 84.76716
+  type: admin
+  name: ''
+  object:
+    type: villager
+    equipment:
+      HAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: COD
+    baby: false
+    profession: minecraft:fisherman
+    villagerType: minecraft:snow
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'28':
+  uniqueId: 57447ac5-218b-406b-89ac-e802a87fbbeb
+  world: city
+  x: -1403
+  y: 46
+  z: -2026
+  yaw: 99.25884
+  type: admin
+  name: ''
+  object:
+    type: villager
+    equipment:
+      HAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: SALMON
+    baby: false
+    profession: minecraft:fisherman
+    villagerType: minecraft:snow
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'29':
+  uniqueId: 367ee4ba-b1d8-4703-a10e-6ae63108b446
+  world: city
+  x: -1403
+  y: 46
+  z: -2027
+  yaw: 90.75056
+  type: admin
+  name: ''
+  object:
+    type: villager
+    equipment:
+      HAND:
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: TROPICAL_FISH
+    baby: false
+    profession: minecraft:fisherman
+    villagerType: minecraft:snow
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []

@@ -1,0 +1,160 @@
+settings:
+  menu: 'example-shop-menu'
+  buy-more: true
+  shop-name: 'Minerals Shop'
+  hide-message: false
+
+items:
+  A:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: diamond
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '15.02'
+        placeholder: '{amount}$'
+        start-apply: 0
+  B:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: GOLD_INGOT
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '10.12'
+        max-amount: 67.92
+        min-amount: 0.53
+        placeholder: '{amount}$'
+        start-apply: 0 
+  C:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: IRON_INGOT
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.01'
+        max-amount: 23.51
+        min-amount: 0.26
+        placeholder: '{amount}$'
+        start-apply: 0
+  D:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: LAPIS_LAZULI
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1'
+        max-amount: 17.88
+        min-amount: 1.29
+        placeholder: '{amount}$'
+        start-apply: 0
+  E:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: REDSTONE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.13'
+        placeholder: '{amount}$'
+        start-apply: 0
+  F:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COAL
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.75'
+        placeholder: '{amount}$'
+        start-apply: 0
+  G:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: AMETHYST_SHARD
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.66'
+        placeholder: '{amount}$'
+        start-apply: 0
+  H:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: ANCIENT_DEBRIS
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.24'
+        max-amount: 785
+        min-amount: 1
+        placeholder: '{amount}$'
+        start-apply: 0
+  I:
+    price-mode: ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: QUARTZ
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.54'
+        max-amount: 22.87
+        min-amount: 1.98
+        placeholder: '{amount}$'
+        start-apply: 0 
+  J:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: COPPER_INGOT
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.12'
+        placeholder: '{amount}$'
+        start-apply: 0
+  K:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: NETHERITE_INGOT
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '100.12'
+        placeholder: '{amount}$'
+        start-apply: 0

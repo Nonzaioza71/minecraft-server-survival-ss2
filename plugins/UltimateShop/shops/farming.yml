@@ -1,0 +1,263 @@
+settings:
+  menu: 'example-shop-menu'
+  buy-more: true
+  shop-name: 'Farming Shop'
+  hide-message: false
+
+items:
+  A:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: WHEAT_SEEDS
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.8'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  B:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PUMPKIN_SEEDS
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.9'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  C:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BEETROOT_SEEDS
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  D:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MELON_SEEDS
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.11'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  E:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: WHEAT
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.90'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  F:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: PUMPKIN
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1'
+        placeholder: '{amount}$'
+        start-apply: 0
+  G:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: MELON_SLICE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.33'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  H:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: BEETROOT
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '4.23'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  I:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: POTATO
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.49'
+        placeholder: '{amount}$'
+        start-apply: 0 
+  J:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: SUGAR_CANE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.19'
+        placeholder: '{amount}$'
+        start-apply: 0
+  K:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: KELP
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '0.85'
+        placeholder: '{amount}$'
+        start-apply: 0
+  L:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: VINE
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '2.14'
+        placeholder: '{amount}$'
+        start-apply: 0
+  M:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: CARROT
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '3.76'
+        placeholder: '{amount}$'
+        start-apply: 0
+  N:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: NETHER_WART
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '5.5'
+        placeholder: '{amount}$'
+        start-apply: 0
+  O:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: LILY_PAD
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: '1.85'
+        placeholder: '{amount}$'
+        start-apply: 0
+    sell-limits:
+      global: 640
+      default: 128
+      vip: 192
+    sell-limits-conditions:
+      vip:
+        - 'permission: group.vip'
+    sell-limits-reset-mode: 'TIMED'
+    sell-limits-reset-time: '00:00:00'  
+  P:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: sweet_berries
+        amount: 1 
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 1
+        placeholder: '{amount}$'
+        start-apply: 0 
+  Q:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: glow_berries
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 3
+        placeholder: '{amount}$'
+        start-apply: 0
+  R:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: torchflower_seeds
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 100.11
+        placeholder: '{amount}$'
+        start-apply: 0
+  S:
+    price-mode: CLASSIC_ALL
+    product-mode: CLASSIC_ALL
+    products:
+      1:
+        material: pitcher_pod
+        amount: 1
+    sell-prices:
+      1:
+        economy-plugin: Vault
+        amount: 100.31
+        placeholder: '{amount}$'
+        start-apply: 0

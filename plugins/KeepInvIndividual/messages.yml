@@ -1,0 +1,18 @@
+info:
+  enabled: '&7Successfully enabled KeepInventory for &e{player}&7!'
+  disabled: '&7Successfully disabled KeepInventory for &e{player}&7!'
+  reload:
+    process: '&7Reloading configurations...'
+    success: '&7Configurations were successfully reloaded!'
+error:
+  no-permission: '&cYou do not have permission to use this command!'
+  no-such-player: '&cPlayer &e{player} &cdoes not exist.'
+  invalid-arguments: '&cInvalid arguments. Usage: &e/keepinventory <on/off/reload>
+    (player)'
+  not-enough-arguments: '&cNot enough arguments. Usage: &e/keepinventory <on/off/reload>
+    (player)'
+  already-enabled: '&cIt is already enabled for &e{player} &c.'
+  already-disabled: '&cIt is already disabled for &e{player}.'
+  empty-list: '&cThe list is empty.'
+  must-be-number: '&cThe argument must be a number!'
+  page-out-of-bounds: '&cThe list only goes up to {number} pages.'

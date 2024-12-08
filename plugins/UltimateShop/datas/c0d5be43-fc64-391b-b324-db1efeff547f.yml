@@ -1,0 +1,300 @@
+useTimes:
+  minerals:
+    G:
+      lastSellTime: '2024-11-04 05:40:18'
+      sellUseTimes: 35
+    A:
+      lastSellTime: '2024-11-08 12:13:25'
+      sellUseTimes: 1007
+    D:
+      lastSellTime: '2024-11-04 07:27:40'
+      sellUseTimes: 92
+    E:
+      lastSellTime: '2024-11-04 07:27:24'
+      sellUseTimes: 237
+    J: {}
+    I:
+      lastSellTime: '2024-11-05 18:22:56'
+      sellUseTimes: 4
+    C: {}
+    B:
+      lastSellTime: '2024-11-10 01:42:11'
+      sellUseTimes: 723
+    H:
+      lastSellTime: '2024-11-05 20:21:58'
+      sellUseTimes: 81
+    K:
+      lastSellTime: '2024-11-08 12:13:52'
+      sellUseTimes: 29
+    F:
+      lastSellTime: '2024-11-08 12:12:32'
+      sellUseTimes: 576
+  glass:
+    G: {}
+    K: {}
+    I: {}
+    A: {}
+    F: {}
+    N: {}
+    B: {}
+    M: {}
+    H: {}
+    C: {}
+    Q: {}
+    D: {}
+    P: {}
+    E: {}
+    O: {}
+    J: {}
+    L: {}
+  redstone:
+    I: {}
+    E:
+      lastSellTime: '2024-11-04 08:32:34'
+      sellUseTimes: 262
+    F: {}
+    B:
+      lastSellTime: '2024-11-06 19:47:38'
+      sellUseTimes: 28
+    C: {}
+    D: {}
+    A: {}
+    G: {}
+    H: {}
+  wools:
+    D: {}
+    H: {}
+    L: {}
+    C: {}
+    M: {}
+    F: {}
+    E: {}
+    G: {}
+    O: {}
+    B: {}
+    P: {}
+    N: {}
+    I: {}
+    K: {}
+    J: {}
+    A: {}
+  blocks2:
+    E: {}
+    S: {}
+    A: {}
+    F:
+      lastSellTime: '2024-11-09 00:54:28'
+      sellUseTimes: 254
+    M: {}
+    B: {}
+    L: {}
+    C:
+      lastSellTime: '2024-11-09 01:34:08'
+      sellUseTimes: 186
+    N: {}
+    K: {}
+    Q: {}
+    I: {}
+    P:
+      lastSellTime: '2024-11-04 05:34:08'
+      sellUseTimes: 545
+    R: {}
+    J: {}
+    H:
+      lastSellTime: '2024-11-05 19:25:06'
+      sellUseTimes: 577
+    G: {}
+    O:
+      lastSellTime: '2024-11-09 01:50:06'
+      sellUseTimes: 13274
+    T: {}
+    D: {}
+  flowers:
+    N: {}
+    A: {}
+    I: {}
+    L: {}
+    S: {}
+    H: {}
+    J: {}
+    G: {}
+    E: {}
+    D: {}
+    M: {}
+    F: {}
+    C: {}
+    B: {}
+    R:
+      lastSellTime: '2024-11-09 20:11:52'
+      sellUseTimes: 8962
+    Q: {}
+    O: {}
+    P: {}
+    K: {}
+    T:
+      lastSellTime: '2024-11-10 01:41:06'
+      sellUseTimes: 21
+  fish:
+    E: {}
+    C: {}
+    D: {}
+    F: {}
+    B: {}
+    A: {}
+  blocks:
+    O:
+      lastSellTime: '2024-11-05 19:14:11'
+      sellUseTimes: 23293
+    S: {}
+    H: {}
+    K: {}
+    J: {}
+    U:
+      lastSellTime: '2024-11-05 15:20:27'
+      sellUseTimes: 15
+    L: {}
+    A: {}
+    M: {}
+    F: {}
+    E:
+      lastSellTime: '2024-11-09 02:11:54'
+      sellUseTimes: 810
+    P: {}
+    Q: {}
+    T: {}
+    N:
+      lastSellTime: '2024-11-05 18:22:43'
+      sellUseTimes: 1998
+    R: {}
+    B: {}
+    D: {}
+    C: {}
+    G: {}
+    I: {}
+  transport:
+    D: {}
+    G: {}
+    F: {}
+    A: {}
+    C: {}
+    I:
+      lastSellTime: '2024-11-09 02:17:22'
+      sellUseTimes: 15
+    B: {}
+    E: {}
+    H: {}
+  concretes:
+    J: {}
+    H: {}
+    B: {}
+    N: {}
+    P: {}
+    G: {}
+    A: {}
+    F: {}
+    D: {}
+    O: {}
+    I: {}
+    K: {}
+    L: {}
+    M: {}
+    C: {}
+    E: {}
+  logs:
+    D: {}
+    M:
+      lastSellTime: '2024-11-06 22:23:58'
+      sellUseTimes: 7
+    A: {}
+    G: {}
+    I: {}
+    F: {}
+    H: {}
+    E:
+      lastSellTime: '2024-11-10 19:20:28'
+      sellUseTimes: 90734
+    C: {}
+    B: {}
+    O: {}
+    K: {}
+    L: {}
+    J: {}
+    N: {}
+  farming:
+    F: {}
+    A: {}
+    B: {}
+    S: {}
+    E:
+      lastSellTime: '2024-11-04 05:33:31'
+      sellUseTimes: 198
+    Q: {}
+    C: {}
+    L: {}
+    J:
+      lastSellTime: '2024-11-08 20:25:38'
+      sellUseTimes: 5478
+    N:
+      lastSellTime: '2024-11-05 15:20:56'
+      sellUseTimes: 19
+    P: {}
+    M:
+      lastSellTime: '2024-11-10 15:59:45'
+      sellUseTimes: 4695
+    G: {}
+    K: {}
+    R: {}
+    H: {}
+    O: {}
+    D: {}
+    I: {}
+  terracottas:
+    H: {}
+    L: {}
+    E: {}
+    B: {}
+    D: {}
+    I: {}
+    A: {}
+    M: {}
+    O: {}
+    C: {}
+    K: {}
+    J: {}
+    G: {}
+    F: {}
+    P: {}
+    N: {}
+  drops:
+    P: {}
+    D:
+      lastSellTime: '2024-11-04 08:51:12'
+      sellUseTimes: 20
+    H: {}
+    J:
+      lastSellTime: '2024-11-04 07:27:28'
+      sellUseTimes: 10
+    M: {}
+    N: {}
+    A: {}
+    B: {}
+    L: {}
+    G: {}
+    F:
+      lastSellTime: '2024-11-05 15:20:24'
+      sellUseTimes: 184
+    K: {}
+    I: {}
+    C:
+      lastSellTime: '2024-11-04 05:59:40'
+      sellUseTimes: 4
+    O: {}
+    E:
+      lastSellTime: '2024-11-04 07:27:30'
+      sellUseTimes: 18
+  special:
+    B:
+      lastSellTime: '2024-11-04 06:20:17'
+      sellUseTimes: 5
+    A: {}
+    C: {}

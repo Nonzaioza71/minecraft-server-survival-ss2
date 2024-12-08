@@ -1,0 +1,32 @@
+MySQL:
+  # Defaults to Server IP
+  host: 103.230.121.110
+  # Default Port is 3306
+  port: '3306'
+  # Database Name
+  database: empdev-mcsv-survival
+  # Username
+  username: empdev
+  # Password
+  password: empdevQwerty1@#$%
+  # Only Enable if your database supports SSL
+  useSSL: false
+
+# Autosave Settings
+Autosave:
+  enabled: true
+  # Interval in Minutes
+  interval: 1
+
+# Choose what data will Sync
+PlayerData:
+  health: true
+  hunger: true
+  expLevel: true
+  # Sync Ender Chest
+  enderchest: true
+
+ServerInfo:
+  # Will show when finding last online server
+  name: ''
+
