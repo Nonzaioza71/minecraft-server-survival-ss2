@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "71c9533c-73e0-301c-9e35-3be08f611e00",
+    "name": "KuyNaHee",
+    "created": "2024-10-23 17:48:23 +0000",
+    "source": "IZax",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "3e642e45-61d3-384b-bb53-506f0177333e",
+    "name": "Teamfanboy7",
+    "created": "2024-10-24 04:36:52 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "c0d5be43-fc64-391b-b324-db1efeff547f",
+    "name": "ggf",
+    "created": "2024-12-01 05:00:09 +0000",
+    "source": "IZax",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

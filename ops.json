@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "636e55d7-9093-30a4-b300-9a4b7c372ba0",
+    "name": "Lune",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f94febbf-3029-3133-8258-c1908db256e5",
+    "name": "Ponyo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "46477c0e-95ac-3282-a535-a18ed7a29cb7",
+    "name": "IZax",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bbb9f7b8-0221-361f-bccd-cd0346b60c2b",
+    "name": "Admin_FixBug",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

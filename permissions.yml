@@ -1,0 +1,34 @@
+server.basics:
+       description: Basic permissions for My Cool Server.
+       default: true
+       children:
+              wildloaders.use: true
+              xconomy.user.balance: true
+              xconomy.user.balance.other: true
+              xconomy.user.pay: true
+              xconomy.user.pay.receive: true
+              xconomy.user.balancetop: true
+              xconomy.user.paytoggle: true
+              protectionstones.create: true
+              protectionstones.destroy: true
+              protectionstones.merge: true
+              protectionstones.unclaim: true
+              protectionstones.view: true
+              protectionstones.view.others: true
+              protectionstones.info: true
+              protectionstones.info.others: true
+              protectionstones.count: true
+              protectionstones.count.others: true
+              protectionstones.list: true
+              protectionstones.hide: true
+              protectionstones.unhide: true
+              protectionstones.setparent: true
+              protectionstones.name: true
+              protectionstones.home: true
+              protectionstones.sethome: true
+              protectionstones.owners: true
+              protectionstones.members: true
+              protectionstones.flags: true
+              protectionstones.buysell: true
+              protectionstones.tax: true
+              protectionstones.rent: true

@@ -1,0 +1,3 @@
+git -C /home/empdev/mcsv-survival-public/ add .
+git -C /home/empdev/mcsv-survival-public/ commit -m "backup"
+git -C /home/empdev/mcsv-survival-public/ push origin master
